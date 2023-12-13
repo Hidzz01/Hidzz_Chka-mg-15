@@ -12,7 +12,7 @@ from pymongo import MongoClient
 app = Flask(__name__)
 
 password = 'Hidzz_chka01'
-cxn_str = f'mongodb+srv://Hidzz_kece01:{password}@cluster0.7er0cpk.mongodb.net/?retryWrites=true&w=majority'
+cxn_str = f'mongodb+srv://Hidzz_chka:{password}@cluster0.n0zq5jy.mongodb.net/?retryWrites=true&w=majority'
 client = MongoClient(cxn_str)
 db = client.dbsparta_plus_week3
 
